@@ -18,17 +18,19 @@
             padding-top: var(--nav-height);
         }
 
+        #img {
+            width: 100%;
+        }
+        #img > img {
+            width: 100%;
+        }
+
         .red {
             color: var(--color-red);
         }
 
         .invite {
             color: var(--color-theme);
-        }
-
-        .divCol > div {
-            display: flex;
-            justify-content: space-around;
         }
     </style>
 </head>
@@ -58,22 +60,16 @@
     // Find nav links to highlight
     let curPage = '/' + document.location.pathname.split('/')[1],
         anchors = [...document.querySelectorAll('#nav-center > a')];
-    for (const link of anchors) {
-        console.log(curPage + link.getAttribute('href'))
+
+    for (const link of anchors)
         if (link.getAttribute('href') == curPage) {
             link.classList.add('selected')
             break;
         }
-    }
 </script></nav>
     <main>
-        <div class="divCol">
-            <div>
-                <img src="/asset/ecosBDG/dotha lotus.png" alt="">
-            </div>
-            <div>
-                <img src="/asset/ecosBDG/dotha lotus.png" alt="">
-            </div>
+        <div id="img">
+            <img src="/asset/icon/404.png">
         </div>
         <p class="red">Rất tiếc, trang bạn muốn truy cập không tồn tại</p>
         <p class="invite">
@@ -89,14 +85,32 @@
             </p>
         </div>
     </main>
-    <footer><div id="fb-root"></div>
-
-<div>
+    <footer><div>
     <div class="info">
         <h2>Công ty Cổ phần Bác sĩ Thương hiệu</h2>
-        <p>Địa chỉ: 87 Đường 14, Phường Linh Chiểu, TP. Thủ Đức, TP. Hồ Chí Minh</p>
-        <p>Email: branddoctor.info@gmail.com</p>
-        <p>Điện thoại: (028) 398 404 12</p>
+        <div>
+            <img src="/asset/icon/footer add icon.png">
+            <p>Địa chỉ: 87 Đường 14, Phường Linh Chiểu, TP. Thủ Đức, TP. Hồ Chí Minh</p>
+        </div>
+        <div>
+            <img src="/asset/icon/footer email icon.png" alt="">
+            <p>Email: branddoctor.info@gmail.com</p>
+        </div>
+        <div>
+            <img src="/asset/icon/footer phone icon.png" alt="">
+            <p>Điện thoại: (028) 398 404 12</p>
+        </div>
+        <div style="flex-grow: 10;">
+            <!-- Placeholder to create space -->
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/BrandDoctorGroup">
+                <img src="/asset/icon/footer facebook icon.png">
+            </a>
+            <a href="https://www.youtube.com/channel/UCyFp5hXG1unzwKzio2J-ehg">
+                <img src="/asset/icon/footer youtube icon.png">
+            </a>
+        </div>
     </div>
     <ul>
         <li><a href="/about-us">About us</a></li>
@@ -118,6 +132,83 @@
     </form>
 </div>
 <p>©2024 All Rights Reserved. Brand Doctor Group</p></footer>
+    <div><style>
+    #float-contact {
+        z-index: 3;
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+    }
+
+    #fcon-con {
+        display: flex;
+        flex-direction: column;
+        /* width: 25vw; */
+        border: 0.5rem solid var(--color-gray);
+        border-radius: var(--border-radius);
+        background: var(--color-glass-white);
+        backdrop-filter: blur(5px);
+    }
+    #fcon-con a {
+        display: flex;
+        text-decoration: none;
+        color: var(--color-gray);
+    }
+    #fcon-con a img {
+        margin: auto 1rem;
+        height: 2rem;
+    }
+    #fcon-con a p {
+        margin-right: 1rem;
+    }
+
+    #fcon-img {
+        display: flex;
+        justify-content: right;
+    }
+    #fcon-img img {
+        width: 5rem;
+        cursor: pointer;
+    }
+</style>
+
+<div id="float-contact">
+    <!-- Default style at none for the script to remove when clicked -->
+    <div id="fcon-con" style="display: none;">
+        <a>
+            <img src="/asset/icon/contact messenger icon.png">
+            <p>Messenger</p>
+        </a>
+        <a>
+            <img src="/asset/icon/contact zalo icon.png">
+            <p>Zalo Chat</p>
+        </a>
+        <a href="mailto:branddoctor.info@gmail.com">
+            <img src="/asset/icon/contact email icon.png">
+            <p>Send Email</p>
+        </a>
+        <a href="tel:+842839840412">
+            <img src="/asset/icon/contact phone icon.png">
+            <p>(028) 398 404 12</p>
+        </a>
+    </div>
+    <div id="fcon-img">
+        <!-- <div>
+            <img onclick="floatContact(1)" style="display: block;" src="/asset/icon/live chat button1.png">
+        </div> -->
+        <div>
+            <img onclick="floatContact()" style="display: block;" src="/asset/icon/contact button.png">
+        </div>
+    </div>
+</div>
+
+<!-- Script only work when being built -->
+<script>
+    function floatContact(btn) {
+        let con = document.getElementById('fcon-con').style; // use as reference
+        con.display = con.display? '' : 'none'; // hide if there is no style
+    }
+</script></div>
 
 
 <script src="/asset/script/script.js"></script>
