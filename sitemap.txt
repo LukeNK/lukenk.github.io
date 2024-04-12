@@ -8,4 +8,5 @@ https://branddoctorgroup.com/about-us/ten-ho
 https://branddoctorgroup.com/du-an
 https://branddoctorgroup.com/du-an/chi-tiet
 https://branddoctorgroup.com/tin-tuc
-https://branddoctorgroup.com/tin-tuc/bai-viet
+https://branddoctorgroup.com/tin-tuc/!template
+https://branddoctorgroup.com/tin-tuc/test
