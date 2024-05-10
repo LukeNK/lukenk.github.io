@@ -1,5 +1,3 @@
-https://branddoctorgroup.com/index.html
-https://branddoctorgroup.com/404.html
 https://branddoctorgroup.com/trang-chu
 https://branddoctorgroup.com/lien-he
 https://branddoctorgroup.com/ve-chung-toi
@@ -8,6 +6,8 @@ https://branddoctorgroup.com/ve-chung-toi/ten-ho
 https://branddoctorgroup.com/du-an
 https://branddoctorgroup.com/du-an/chi-tiet
 https://branddoctorgroup.com/tin-tuc
+https://branddoctorgroup.com/index.pug
+https://branddoctorgroup.com/404.pug
 https://branddoctorgroup.com/tin-tuc/khai-giang-chuyen-de-thcn-5-0
 https://branddoctorgroup.com/tin-tuc/hoi-thao
 https://branddoctorgroup.com/tin-tuc/tong-giong-thuong-hieu
