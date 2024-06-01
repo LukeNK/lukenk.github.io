@@ -5,12 +5,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css"/>
-<link rel="stylesheet" href="/asset/style/style.css">
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v19.0" nonce="4bmcZPt8"></script><link rel="stylesheet" href="/asset/style/browser.css">
-<link rel="stylesheet" href="/asset/style/article.css"><title>Các thương hiệu được chọn mua nhiều nhất tại Việt Nam 2019</title></head><body><nav><div id="nav-logo"><a href="/trang-chu/"><img src="/asset/image/logo_blue_cut.png" loading="eager" alt="Logo"></a></div><div id="nav-center"><!-- Footer copy its list from here (based on id)--><a href="/ve-chung-toi/">Về chúng tôi</a><a href="/tin-tuc/">Tin tức</a><a>ecosBDG</a><a href="/du-an/">Dự án</a><a href="/lien-he/">Liên hệ</a></div><div id="nav-lang"><span><span class="fi fi-undefined"></span></span><ul style="display: none;"><!--Language menu will be composed page-by-page by dev/build.js
-Leave one tag here as an example, but if you want to edit
-please edit it in the build script dev/build.js:onTranslationBuild()--><li lang="vi"><a>Vietnamese</a></li><!-- <li><a href="#" onclick="langList.display = "none";"></a></li>--></ul></div><script src="/asset/script/nav.js" async></script></nav><main><div class="article-title banner"><div><p>Thị trường hôm nay</p><h1>Các thương hiệu được chọn mua nhiều nhất tại Việt Nam 2019</h1><p>6 phút đọc</p></div><div><img src="/tin-tuc/img/old/woman-in-yellow-tshirt-and-beige-jacket-holding-a-fruit-3962285-scaled-1.jpg"></div></div><section><div><!-- metadata will go here--><h3>Nguyễn Khánh Trung</h3><p>03/07/2020</p><aside><h2>Nội dung</h2></aside></div><article><ul>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css"/><link rel="stylesheet" href="/asset/style.css"><link rel="stylesheet" href="/asset/style/nav.css"><link rel="stylesheet" href="/asset/style/footer.css"><script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v19.0" nonce="4bmcZPt8"></script><link rel="stylesheet" href="/asset/style/browser.css">
+<link rel="stylesheet" href="/asset/style/post.css"><title>Các thương hiệu được chọn mua nhiều nhất tại Việt Nam 2019</title></head><body><nav><div class="mobile" id="nav-menu" onclick="toggleNav()"><img src="/asset/icon/nav menu.svg"></div><a id="nav-logo" href="/trang-chu/"><img src="/asset/image/logo_blue_cut.png" loading="eager" alt="Logo"></a><div class="mobile"></div><div id="nav-center"><!-- Footer copy its list from here (based on id)--><!-- Hide homepage but available for mobile--><button class="mobile" onclick="toggleNav()">✖</button><a class="mobile" href="/trang-chu/">Trang chủ</a><a href="/ve-chung-toi/">Về chúng tôi</a><a href="/tin-tuc/">Tin tức</a><a>ecosBDG</a><a href="/du-an/">Dự án</a><a href="/lien-he/">Liên hệ</a></div><div id="nav-lang"><details><summary><span class="fi fi-undefined"></span></summary><a lang="vi"><span class="fi fi-vn"></span>Vietnamese</a><!-- <li><a href="#" onclick="langList.display = "none";"></a></li>--></details></div></nav><div id="nav-menu-close" onclick="toggleNav()"></div><script src="/asset/script/nav.js" async></script><main><div class="article-title banner"><div><p>Thị trường hôm nay</p><h1>Các thương hiệu được chọn mua nhiều nhất tại Việt Nam 2019</h1><p>6 phút đọc</p></div><div><img src="/tin-tuc/img/old/woman-in-yellow-tshirt-and-beige-jacket-holding-a-fruit-3962285-scaled-1.jpg"></div></div><section><div><!-- metadata will go here--><h3>Nguyễn Khánh Trung</h3><p>03/07/2020</p><aside><h2>Nội dung</h2></aside></div><article><ul>
  	<li><em>Unilever, Vinamilk và Masan Consumer 7 năm liên tiếp duy trì vị trí dẫn đầu trong Top 3 nhà sản xuất sở hữu các thương hiệu được chọn mua nhiều nhất tại Thành thị 4 thành phố và Nông thôn.</em></li>
  	<li><em>Trong Top 10 các nhà sản xuất được chọn mua nhiều nhất, Suntory PepsiCo và Calofic lần lượt là hai nhà sản xuất có tốc độ tăng trưởng nhanh nhất ở Thành thị 4 thành phố và Nông thôn</em></li>
  	<li><em>Trong ngành hàng Sữa và các sản phẩm thay thế Sữa, Milo của Nestlé là thương hiệu tăng trưởng nhanh nhất ở khu vực Thành thị 4 thành phố và đạt mức tăng trưởng CPRs đáng chú ý ở Nông thôn Việt Nam</em></li>
@@ -38,7 +34,9 @@ Tại Việt Nam, Worldpanel công bố Top 10 nhà sản xuất trong ngành h�
         background-image:
             linear-gradient(to left, #003399e0, #003399e0),
             url(/asset/image/banner_bg.jpg);
+        flex-wrap: wrap;
     }
+    #banner-contact > div { padding: 0; }
 
     #banner-contact a::before {
         content: "➡";
@@ -55,23 +53,27 @@ Tại Việt Nam, Worldpanel công bố Top 10 nhà sản xuất trong ngành h�
     #banner-contact p {
         color: white;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
+        column-gap: 1rem;
     }
     #banner-contact span {
         text-align: right;
     }
 
-    #banner-contact .img {
-        padding: 0;
-        align-self: flex-end;
-    }
     #banner-contact img {
         width: 25rem;
+    }
+
+    @media screen and (max-width: 30rem) {
+        #banner-contact img {
+            width: 75%;
+        }
     }
 </style>
 
 <div id="banner-contact" class="banner">
-    <div>
+    <div style="flex: 0 1 40rem">
         <h1>Doanh nghiệp bạn cần giải pháp thương hiệu?</h1>
         <a href="/lien-he">Liên hệ cùng chúng tôi</a>
         <p><span>(028) 398 404 12</span><span>branddoctor.info@gmail.com</span></p>
@@ -87,7 +89,7 @@ Tại Việt Nam, Worldpanel công bố Top 10 nhà sản xuất trong ngành h�
     }
 
     #form-signup form {
-        width: 30%;
+        max-width: 20rem;
         margin: auto;
     }
 
@@ -106,9 +108,10 @@ Tại Việt Nam, Worldpanel công bố Top 10 nhà sản xuất trong ngành h�
         <input id="form-email" type="email" name="email">
         <button>ĐĂNG KÝ</button>
     </form>
-</div><script src="/asset/script/article.js"></script></main><footer><div><div class="info"><h2>Công ty Cổ phần Bác sĩ Thương hiệu</h2><div><img src="/asset/icon/footer add icon.png"><p>Địa chỉ: 87 Đường 14, Phường Linh Chiểu, TP. Thủ Đức, TP. Hồ Chí Minh</p></div><div><img src="/asset/icon/footer email icon.png"><p>Email: branddoctor.info@gmail.com</p></div><div><img src="/asset/icon/footer phone icon.png"><p>Điện thoại: (028) 398 404 12</p></div><div style="flex-grow: 10"></div><div class="social"><a href="https://www.facebook.com/BrandDoctorGroup"><img src="/asset/icon/footer facebook icon.png"></a><a href="https://www.youtube.com/@branddoctorgroup"><img src="/asset/icon/footer youtube icon.png"></a></div></div><ul id="quick-links"><li><a href="/trang-chu/">Trang chủ</a></li></ul><form><div class="fb-page" data-href="https://www.facebook.com/BrandDoctorGroup" data-tabs="posts" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/BrandDoctorGroup" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/BrandDoctorGroup">Brand Doctor Group</a></blockquote></div><p>Bắt đầu đồng hành cùng Brand Doctor</p><input type="text" placeholder="Họ &amp; Tên"><input type="email" placeholder="Email"><textarea placeholder="Nội dung"></textarea><button>GỬI</button></form></div><p>©2024 All Rights Reserved. Brand Doctor Group</p><script>// copy from nav bar to footer quick links
+</div><script src="/asset/script/article.js"></script></main><footer><div><div class="info"><h2>Công ty Cổ phần Bác sĩ Thương hiệu</h2><div><img src="/asset/icon/footer add icon.png"><p>Địa chỉ: 87 Đường 14, Phường Linh Chiểu, TP. Thủ Đức, TP. Hồ Chí Minh</p></div><div><img src="/asset/icon/footer email icon.png"><p>Email: branddoctor.info@gmail.com</p></div><div><img src="/asset/icon/footer phone icon.png"><p>Điện thoại: (028) 398 404 12</p></div><div style="flex-grow: 10"></div><div class="social"><a href="https://www.facebook.com/BrandDoctorGroup"><img src="/asset/icon/footer facebook icon.png"></a><a href="https://www.youtube.com/@branddoctorgroup"><img src="/asset/icon/footer youtube icon.png"></a></div></div><ul id="quick-links"></ul><form><div class="fb-page" data-href="https://www.facebook.com/BrandDoctorGroup" data-tabs="posts" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/BrandDoctorGroup" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/BrandDoctorGroup">Brand Doctor Group</a></blockquote></div><p>Bắt đầu đồng hành cùng Brand Doctor</p><input type="text" placeholder="Họ &amp; Tên"><input type="email" placeholder="Email"><textarea placeholder="Nội dung"></textarea><button>GỬI</button></form></div><p>©2024 All Rights Reserved. Brand Doctor Group</p><script>// copy from nav bar to footer quick links
 let quickLinks = document.getElementById('quick-links');
 [...document.getElementById('nav-center').children].forEach(elm => {
+    if (!elm.getAttribute('href')) return; //skip empty links
     quickLinks.innerHTML += `<li>
         <a href="${elm.getAttribute('href')}">${elm.innerHTML}</a>
     </li>`
@@ -211,4 +214,4 @@ let quickLinks = document.getElementById('quick-links');
             btn.style.display = btn.style.display? '' : 'none';
         })
     }
-</script></body><script src="/asset/script/script.js"></script></html>
+</script></body><script src="/asset/script.js"></script></html>
