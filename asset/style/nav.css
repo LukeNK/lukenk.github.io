@@ -16,8 +16,9 @@ nav > * {
 nav .mobile { display: none; }
 
 #nav-menu {
-    justify-content: right;
+    justify-content: left;
     align-items: center;
+    padding-left: var(--side-padding);
     cursor: pointer;
 }
 #nav-menu img {
@@ -71,13 +72,28 @@ nav .mobile { display: none; }
     border-radius: 0 0 var(--border-radius) var(--border-radius);
     display: flex;
 }
+#nav-lang details summary {
+    gap: 1rem;
+    justify-content: right;
+}
 #nav-lang summary::after { margin: 0; }
 #nav-lang details[open] {
-    padding: 1rem;
+    position: fixed;
+    top: 0;
+    right: var(--side-padding);
+    padding: 0 0 1rem 1rem;
     background: var(--color-glass-white);
     backdrop-filter: blur(5px); /* TODO: does not work */
 }
-#nav-lang a { text-decoration: none; }
+#nav-lang details[open] summary {
+    align-items: center;
+    margin-bottom: 1rem;
+    height: var(--nav-height);
+}
+#nav-lang a {
+    margin-right: 1rem;
+    text-decoration: none;
+}
 #nav-lang details a span { margin-right: 0.5rem; }
 
 #nav-menu-close {
@@ -102,7 +118,9 @@ nav .mobile { display: none; }
         flex: 1 1 0;
     }
 
-    #nav-menu { display: flex; }
+    #nav-menu {
+        display: flex;
+    }
 
     #nav-logo {
         display: flex;
@@ -120,8 +138,8 @@ nav .mobile { display: none; }
     #nav-center {
         /* Cover the entire length to act as the background for #nav-lang */
         display: none;
-        left: var(--side-padding);
-        right: var(--side-padding);
+        left: 0;
+        right: 0;
         flex-direction: column;
         align-items: start;
         gap: 0;
@@ -130,7 +148,7 @@ nav .mobile { display: none; }
     #nav-center a {
         width: 50%;
         height: unset;
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 1rem 0.5rem var(--side-padding);
         display: block;
         text-align: left;
     }
@@ -145,13 +163,16 @@ nav .mobile { display: none; }
         right: var(--side-padding);
         padding: 0;
     }
-    #nav-lang summary {
-        padding: 1rem;
-        font-size: xx-large;
-    }
-    #nav-lang details {
+    #nav-lang > details {
+        position: unset !important;
         border-radius: 0;
         width: unset;
+    }
+    #nav-lang > details > summary {
+        height: unset !important;
+        padding: 1rem;
+        margin-bottom: 0 !important;
+        font-size: xx-large;
     }
     #nav-lang details[open] {
         padding: 0;
