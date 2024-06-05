@@ -264,4 +264,8 @@ div.divCol {
     * {
         --side-padding: 5vw;
     }
+
+    p {
+        text-align: justify;
+    }
 }
