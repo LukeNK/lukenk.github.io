@@ -26,10 +26,14 @@ nav .mobile { display: none; }
 }
 
 #nav-logo {
+    display: flex;
+    align-items: center;
     width: 0; /* To prevent the logo from overflowing in Safari */
     padding: 0.5rem 3rem 0.5rem var(--side-padding);
 }
-#nav-logo img { height: 100%; }
+#nav-logo img {
+    height: 75%;
+}
 
 #nav-center {
     flex: 2 0 25rem;
