@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            position: fixed;
+            top: 0; left: 0;
+            bottom: 0; right: 0;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-direction: column;
+            padding: 0 15%;
+            background-color: black;
+            font-size: 18px;
+        }
+
+        div {
+            width: 100%;
+            border: 0.5rem solid white;
+            padding: 0 1rem;
+            color: white;
+        }
+
+        #quote {
+            border-style: double;
+        }
+    </style>
+</head>
+<body>
+    <div id="author"></div>
+    <div id="quote"></div>
+</body>
+<script>
+    const Quotes = [
+        ["*Luna, Check This Out", "No matter what anyone said, I want you to notice it<br>Check this out!"],
+        ["MEWO", "Meow? (Waiting for something to happen?)"],
+        ["MEWO", "Meow? (Not much to do around here, is there?)"]
+        ["KZlivetune, Far Away (bambooXZX's translation)", "Maybe I'll come to love the unknown tomorrow"],
+        ["", "Event a broken clock is right twice a day"],
+        ["Nanatsukaze, Harumeku", "I'd like to live like a cat someday<br>Human desires are foolish"],
+        ["*Luna, 10年後の私になら / Only to me in 10 years (Kohana Lam's translation)", "You are still sneaky, aren't you?<br>You can't wait to escape"],
+        ["*Luna, 10年後の私になら / Only to me in 10 years (Kohana Lam's translation)", "It is not your fault that you cannot be strong."],
+        ["*Luna, 10年後の私になら / Only to me in 10 years (Kohana Lam's translation)", "You may not be able to run with these legs, but you are the one who chose trying to walk somehow"],
+        ["Orangestar, Daydream Skytrain (Translyrics by rachie)", "Hey, don't just wait — make it happen instead"],
+        ["Orangestar, Daydream Skytrain (Translyrics by rachie)", "But if we just focus on things that annoy us, we might miss the stars"],
+        ["Orangestar, Daydream Skytrain (Translyrics by rachie)", "If we're gonna waste the summer, might as well we make them remember just what we can be"],
+        ["*Luna, Someday in that Summer", "Failure is not scary at all, what's scary is to not leave anything behind"],
+        ["Yoshida, 夏空のSELFISH (Selfish in the summer sky)", "A small happiness is fine<br>don't need anything else"],
+        // ["", ""],
+        // ["", ""],
+        // ["", ""],
+        // ["", ""],
+        // ["", ""],
+        // ["", ""],
+        // ["", ""],
+        // ["", ""],
+        // ["", ""],
+        // ["", ""],
+        // ["", ""],
+    ];
+
+    function run() {
+        let index = Math.floor(Quotes.length * Math.random());
+        document.getElementById('author').innerHTML = `<h2>${Quotes[index][0] || "Anonymous"}</h2>`;
+        document.getElementById('quote').innerHTML = `<p>${Quotes[index][1]}</p>`;
+
+        setTimeout(run, 4000);
+    };
+    run();
+</script>
+
+
+
+
