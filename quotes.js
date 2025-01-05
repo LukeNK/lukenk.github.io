@@ -23,7 +23,7 @@ const Quotes = [
     ["*Luna, 10年後の私になら / Only to me in 10 years (Kohana Lam's translation)", "You may not be able to run with these legs, but you are the one who chose trying to walk somehow"],
     ["*Luna, あの夏のいつかは (Someday in that Summer)", "Failure is not scary at all, what's scary is to not leave anything behind"],
     ["Mili, YUBIKIRI-GENMAN", "It's okay if you take a break<br>For I will never stop"],
-    ["OMORI, BASIL", "The photos in our albumb... They're not just photo. They're real memories."],
+    ["OMORI, BASIL", "The photos in our album... They're not just photo. They're real memories."],
     ["OMORI, HERO", "Life gets better. You just have to stay positive."],
     ["OMORI, MEWO", "Meow? (Not much to do around here, is there?)"],
     ["OMORI, MEWO", "Meow? (Waiting for something to happen?)"],
