@@ -44,7 +44,7 @@
     function run() {
         let index = Math.floor(Quotes.length * Math.random());
         document.getElementById('author').innerHTML = `<h2>${Quotes[index][0] || "Anonymous"}</h2>`;
-        document.getElementById('quote').innerHTML = `<p>${Quotes[index][1]}</p>`;
+        document.getElementById('quote').innerHTML = `<p>${Quotes[index][1].replaceAll('\n', '<br>')}</p>`;
 
         setTimeout(run, 4000);
     };
