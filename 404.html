@@ -53,8 +53,23 @@
         );
     }
     run();
+
+    // sort and export
+    Quotes.sort((a, b) => {
+        if (a[0] != b[0]) {
+            // different source, sort using source
+            a = a[0].toLowerCase();
+            b = b[0].toLowerCase();
+        } else {
+            // sort using quote
+            a = a[1];
+            b = b[1];
+        }
+
+        return (a < b) ? -1 : 1;
+    });
+
+    console.log(
+        JSON.stringify(Quotes , undefined, '    ')
+    );
 </script>
-
-
-
-
