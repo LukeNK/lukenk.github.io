@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test paper</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        @page {
+            size: landscape;
+        }
+
+        html {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        tr {
+            page-break-inside: avoid;
+        }
+
+        th {
+            text-align: left;
+            vertical-align: bottom;
+        }
+        th[colspan="2"] {
+            padding-left: 1rem;
+        }
+        th[rowspan] {
+            text-align: center;
+            vertical-align: text-top;
+            border: 5px solid black;
+            border-width: 5px 0;
+        }
+
+        td {
+            border-bottom: 1px dashed #c0c0c0;
+            height: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col width="5%" style="border-right: 1px solid black">
+            <col width="45%" style="border-right: 5px double black;">
+            <col width="10%" style="border-right: 1px solid black">
+            <col width="20%">
+            <col width="5%">
+            <col width="15%">
+        </colgroup>
+        <tr>
+            <td></td>
+            <td></td>
+            <th colspan="2">Lớp: _________________</th>
+            <th>Môn:</th>
+            <th>_________________</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <th colspan="2" contenteditable="true">Tên: _________________</th>
+            <th>Ngày:</th>
+            <th>_____/____/_______</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <th colspan="2"></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <th rowspan="4">Điểm</th>
+            <th rowspan="4" colspan="4">Nhận xét</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+<script>
+    for (let i = 0; i < 50; i++)
+        document.querySelector('table').innerHTML +=
+            '<tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>';
+</script>
+</html>
