@@ -1,7 +1,7 @@
 // WARNING: other projects also depends on this file for quotes
 // T24
 
-const Quotes = 
+const Quotes =
 [
     [
         "",
@@ -18,10 +18,6 @@ const Quotes =
     [
         "",
         "Cats don't have to assure people that they are cats"
-    ],
-    [
-        "",
-        "Certains jours, ils sont foutus et ne peuvent pas être défoncés"
     ],
     [
         "",
@@ -57,6 +53,10 @@ const Quotes =
     ],
     [
         "",
+        "I refuses to die until the world gets better"
+    ],
+    [
+        "",
         "I will be the one who light the flame"
     ],
     [
@@ -77,15 +77,15 @@ const Quotes =
     ],
     [
         "",
+        "Je refuse de mourir jusqu'à ce que le monde s'améliore"
+    ],
+    [
+        "",
         "La vie est comme des toilettes, parfois il faut juste laisser tomber la merde et chasser la négativité"
     ],
     [
         "",
         "La vie n'est pas la fête qu'on imagine mais puisque nous sommes là, dansons!"
-    ],
-    [
-        "",
-        "Le seul endroit où le succès vient avant le travail est dans le dictionnaire"
     ],
     [
         "",
@@ -101,6 +101,10 @@ const Quotes =
     ],
     [
         "",
+        "Nous regrettons seaulement les chances que nous n'avons pas saisies"
+    ],
+    [
+        "",
         "People can't drive you crazy if you don't give them the keys"
     ],
     [
@@ -110,10 +114,6 @@ const Quotes =
     [
         "",
         "Rules are made to be broken and you are made to be happy"
-    ],
-    [
-        "",
-        "Some day are fucked and cannot be unfucked"
     ],
     [
         "",
@@ -142,6 +142,10 @@ const Quotes =
     [
         "",
         "Tout le monde veut savoir ce que je ferais si je ne gagnais pas.\nCe n'est une option, doc je n'y pense pas."
+    ],
+    [
+        "",
+        "We only regret the chances we did not take"
     ],
     [
         "",
@@ -184,6 +188,30 @@ const Quotes =
         "You taught me that it's nice to be crazy"
     ],
     [
+        "*Luna, INNATE",
+        "Concourons pour voir à quel point nous pouvons rire le pire jour"
+    ],
+    [
+        "*Luna, INNATE",
+        "I'll smile so much that you'll be jealous"
+    ],
+    [
+        "*Luna, INNATE",
+        "Je sourirai tellement que tu seras jaloux"
+    ],
+    [
+        "*Luna, INNATE",
+        "Let's compete to see how much we can laugh on the worst days"
+    ],
+    [
+        "*Luna, Ours",
+        "Because this is our first life, we've never had anything to lose"
+    ],
+    [
+        "*Luna, Ours",
+        "Parce que c'est notre première vie, nous n'avons jamais rien eu à perdre"
+    ],
+    [
         "*Luna, あの夏のいつかは (Someday in that Summer)",
         "Failure is not scary at all, what's scary is to not leave anything behind"
     ],
@@ -220,6 +248,18 @@ const Quotes =
         "We can surely become stronger, we can look up, and we can walk again"
     ],
     [
+        "*Luna, 彼方の破片 (Fragments Of The Beyond)",
+        "Donnons un nom à une étoile pour qu'elle puisse briller sur quelqu'un"
+    ],
+    [
+        "*Luna, 彼方の破片 (Fragments Of The Beyond)",
+        "Let's give a star a name so that it can shine on someone"
+    ],
+    [
+        "Aesop's fable, The Fox and the Cat",
+        "Better one safe way than a hundred on which you cannot reckon"
+    ],
+    [
         "Antoine de Saint-Exupéry, Le Petit Prince",
         "Fais de ta vie un rêve et d'un rêve une réalité"
     ],
@@ -232,8 +272,16 @@ const Quotes =
         "You see, Nijika, the thing about dreams... is that when times get tough... they can be the light to guide your way"
     ],
     [
+        "CGP Grey",
+        "Even decelerating the negative is a positive"
+    ],
+    [
+        "CGP Grey",
+        "Même le ralentissement du négatif est positif"
+    ],
+    [
         "Ciel Phantomhive",
-        "Only complaining on your misfortune, youère nothing but a common pug!"
+        "Only complaining on your misfortune, you're nothing but a common pig!"
     ],
     [
         "Edna Mode",
@@ -245,7 +293,7 @@ const Quotes =
     ],
     [
         "Harumaki Gohan, Reunion",
-        "Let's make a promise to stay kids forever\nIf nobody gets hurt, stay as how our memoriees are"
+        "Let's make a promise to stay kids forever\nIf nobody gets hurt, stay as how our memories are"
     ],
     [
         "Jason Gray, Sparrows",
