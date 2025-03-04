@@ -89,6 +89,10 @@ const Quotes =
     ],
     [
         "",
+        "Le meilleur jour pour planter un arbre était il y a 20 ans, le deuxième meilleur jour est maintenant."
+    ],
+    [
+        "",
         "Les gens ne peuvent pas vous rendre fou si vous ne leur donnez pas les clés"
     ],
     [
@@ -118,6 +122,10 @@ const Quotes =
     [
         "",
         "Study while others are sleeping; work while others are loafing; prepare while others are playing; and dream while others are wishing"
+    ],
+    [
+        "",
+        "The best day to plant a tree was 20 years ago, the second-best day is now."
     ],
     [
         "",
@@ -332,8 +340,20 @@ const Quotes =
         "I'd like to live like a cat someday\nHuman desires are foolish"
     ],
     [
+        "OMORI, ???",
+        "Do you want to be asleep or awake?"
+    ],
+    [
+        "OMORI, ???",
+        "Voulez-vous être endormi ou éveillé?"
+    ],
+    [
         "OMORI, BASIL",
         "The photos in our album... They're not just photo. They're real memories."
+    ],
+    [
+        "OMORI, HERO",
+        "La vie s'améliore. Il faut juste rester positif."
     ],
     [
         "OMORI, HERO",
