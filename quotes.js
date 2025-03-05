@@ -33,15 +33,7 @@ const Quotes =
     ],
     [
         "",
-        "Event a broken clock is right twice a day"
-    ],
-    [
-        "",
         "Everybody is an astronaut because the Earth, after all, is in space"
-    ],
-    [
-        "",
-        "I might not be normal, but I am happy"
     ],
     [
         "",
@@ -89,7 +81,11 @@ const Quotes =
     ],
     [
         "*Luna, 10年後の私になら / Only to me in 10 years (Kohana Lam's translation)",
-        "It is not your fault that you cannot be strong."
+        "Ce n'est pas de ta faute si tu ne peux pas être fort"
+    ],
+    [
+        "*Luna, 10年後の私になら / Only to me in 10 years (Kohana Lam's translation)",
+        "It is not your fault that you cannot be strong"
     ],
     [
         "*Luna, 10年後の私になら / Only to me in 10 years (Kohana Lam's translation)",
@@ -156,6 +152,10 @@ const Quotes =
         "Failure is not scary at all, what's scary is to not leave anything behind"
     ],
     [
+        "*Luna, あの夏のいつかは (Someday in that Summer)",
+        "L'échec n'est pas du tout effrayant, ce qui est effrayant c'est de ne rien laisser derrière soi"
+    ],
+    [
         "*Luna, バッドエンドの映画は嫌いなんだ (I hate bad end movies)",
         "Our \"best\" is still high in the sky,\nbut we can already see our \"worst\" below"
     ],
@@ -169,11 +169,15 @@ const Quotes =
     ],
     [
         "*Luna, 僕らの夏はまた巡って (Our Summer Will Come Again)",
+        "Est-ce que se salir et se blesser était si effrayant ?"
+    ],
+    [
+        "*Luna, 僕らの夏はまた巡って (Our Summer Will Come Again)",
         "There were a lot of bad times, weren't there?\nBut whenever I look back on it, those days seemed so beautiful"
     ],
     [
         "*Luna, 僕らの夏はまた巡って (Our Summer Will Come Again)",
-        "Was getting dirty and hurt that scary? "
+        "Was getting dirty and hurt that scary?"
     ],
     [
         "*Luna, 僕らの夏はまた巡って (Our Summer Will Come Again)",
@@ -210,6 +214,22 @@ const Quotes =
     [
         10,
         "Que la douleur du passé ne vous fasse jamais de mal"
+    ],
+    [
+        11,
+        "I might not be normal, but I am happy"
+    ],
+    [
+        11,
+        "Je ne suis peut-être pas normal, mais je suis heureux"
+    ],
+    [
+        12,
+        "Event a broken clock is right twice a day"
+    ],
+    [
+        12,
+        "Même si une horloge cassée a raison deux fois par jour"
     ],
     [
         2,
@@ -324,6 +344,14 @@ const Quotes =
         "Useless worries, let's leave them in the dust"
     ],
     [
+        "Deltarune, Don't Forget",
+        "Il y a une lumière dans ton âme, qui briller encore dans le froid"
+    ],
+    [
+        "Deltarune, Don't Forget",
+        "There's a light inside your soul, that's still shining in the cold"
+    ],
+    [
         "Edna Mode",
         "I never look back darling, it distracts from the now."
     ],
@@ -377,6 +405,10 @@ const Quotes =
     ],
     [
         "MgTyle",
+        "Calme-toi, bois du lait"
+    ],
+    [
+        "MgTyle",
         "Chill, have some milk"
     ],
     [
@@ -398,6 +430,14 @@ const Quotes =
     [
         "OMORI, BASIL",
         "The photos in our album... They're not just photo. They're real memories."
+    ],
+    [
+        "OMORI, Good Morning",
+        "Il est temps de se lever et de briller ! Bonjour !"
+    ],
+    [
+        "OMORI, Good Morning",
+        "Time to rise and shine! Good morning!"
     ],
     [
         "OMORI, HERO",
@@ -436,6 +476,10 @@ const Quotes =
         "I want to sing this song to you, who can't shine in a simple world"
     ],
     [
+        "PIKASONIC, First Magnitude Star",
+        "Je veux chanter cette chanson pour toi, toi qui ne peux pas briller dans un monde simple"
+    ],
+    [
         "Qeiru, フィクション (Fiction)",
         "...even if that's the case, my imagination, my adventure, is not a lie"
     ],
@@ -458,6 +502,22 @@ const Quotes =
     [
         "Stephen Hawking",
         "So remember to look up at the stars and not down to your feet"
+    ],
+    [
+        "TryHardNinja, Dragonhearted",
+        "Nous avons un feu qui brûle en nous"
+    ],
+    [
+        "TryHardNinja, Dragonhearted",
+        "Nous verrons le soleil se lever à nouveau, nous escaladerons plus haut que ne nous l'avons jamais été"
+    ],
+    [
+        "TryHardNinja, Dragonhearted",
+        "We got a fire that burns within"
+    ],
+    [
+        "TryHardNinja, Dragonhearted",
+        "We'll see the sun come up again, we will climb higher than we've been"
     ],
     [
         "Yoshida, 夏空のSELFISH (Selfish in the summer sky)",
