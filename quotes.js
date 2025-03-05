@@ -100,6 +100,14 @@ const Quotes =
         "You may not be able to run with these legs, but you are the one who chose trying to walk somehow"
     ],
     [
+        "*Luna, 8.32",
+        "Aujourd'hui n'est pas aujourd'hui pour toujours"
+    ],
+    [
+        "*Luna, 8.32",
+        "Today is not today forever"
+    ],
+    [
         "*Luna, Adventure Log",
         "Cela ne me dérange pas s'il se salit, car il est plus beau lorsqu'il est usé"
     ],
@@ -194,6 +202,14 @@ const Quotes =
     [
         1,
         "Je refuse de mourir jusqu'à ce que le monde s'améliore"
+    ],
+    [
+        10,
+        "May the pain from the past never damage you"
+    ],
+    [
+        10,
+        "Que la douleur du passé ne vous fasse jamais de mal"
     ],
     [
         2,
@@ -292,8 +308,40 @@ const Quotes =
         "Only complaining on your misfortune, you're nothing but a common pig!"
     ],
     [
+        "Deco*27, ハローセカイ (Hello Sekai)",
+        "Don't let the perfect future you give the current you such a hard time"
+    ],
+    [
+        "Deco*27, ハローセカイ (Hello Sekai)",
+        "Ne laisse pas le futur parfait toi, donner tant de fil à retordre au présent toi"
+    ],
+    [
+        "Deco*27, ハローセカイ (Hello Sekai)",
+        "Soucis inutiles, laisson les dans la poussière"
+    ],
+    [
+        "Deco*27, ハローセカイ (Hello Sekai)",
+        "Useless worries, let's leave them in the dust"
+    ],
+    [
         "Edna Mode",
         "I never look back darling, it distracts from the now."
+    ],
+    [
+        "Eve, 群青讃歌(Ultramarine Hymn) ",
+        "Illuminate the future by weaving yourself in the present"
+    ],
+    [
+        "Eve, 群青讃歌(Ultramarine Hymn) ",
+        "Illuminez le futur en vous intégrant au présent"
+    ],
+    [
+        "Eve, 群青讃歌(Ultramarine Hymn) ",
+        "Vous avex réussi à arriver jusqu'ici en embrassant une certaine raison"
+    ],
+    [
+        "Eve, 群青讃歌(Ultramarine Hymn) ",
+        "You've made it all the way here while embracing a certain reason"
     ],
     [
         "Girls last tour, Endless Journey",
@@ -416,135 +464,11 @@ const Quotes =
         "A small happiness is fine\ndon't need anything else"
     ],
     [
-        "Eve, 群青讃歌(Ultramarine Hymn) ",
-        "You've made it all the way here while embracing a certain reason"
-    ],
-    [
-        "Eve, 群青讃歌(Ultramarine Hymn) ",
-        "Vous avex réussi à arriver jusqu'ici en embrassant une certaine raison"
-    ],
-    [
-        "Eve, 群青讃歌(Ultramarine Hymn) ",
-        "Illuminate the future by weaving yourself in the present"
-    ],
-    [
-        "Eve, 群青讃歌(Ultramarine Hymn) ",
-        "Illuminez le futur en vous intégrant au présent"
-    ],
-    [
-        "Deco*27, ハローセカイ (Hello Sekai)",
-        "Don't let the perfect future you give the current you such a hard time"
-    ],
-    [
-        "Deco*27, ハローセカイ (Hello Sekai)",
-        "Ne laisse pas le futur parfait toi, donner tant de fil à retordre au présent toi"
-    ],
-    [
-        "Deco*27, ハローセカイ (Hello Sekai)",
-        "Useless worries, let's leave them in the dust"
-    ],
-    [
-        "Deco*27, ハローセカイ (Hello Sekai)",
-        "Soucis inutiles, laisson les dans la poussière"
-    ],
-    [
         "Zundamon's Theorem",
         "If it doesn't make sense, feel free to ignore it for now "
     ],
     [
         "Zundamon's Theorem",
         "Si cela n'a pas de sense, n'hésitez pas à l'ignorer pour le moment"
-    ],
-    [
-        "*Luna, 8.32",
-        "Today is not today forever"
-    ],
-    [
-        "*Luna, 8.32",
-        "Aujourd'hui n'est pas aujourd'hui pour toujours"
-    ],
-    [
-        "",
-        ""
-    ],
-    [
-        "",
-        ""
-    ],
-    [
-        "",
-        ""
-    ],
-    [
-        "",
-        ""
-    ],
-    [
-        "",
-        ""
-    ],
-    [
-        "",
-        ""
-    ],
-    [
-        "",
-        ""
-    ],
-    [
-        "",
-        ""
-    ],
-    [
-        "",
-        ""
-    ],
-    [
-        "",
-        ""
-    ],
-    [
-        "",
-        ""
-    ],
-    [
-        "",
-        ""
-    ],
-    [
-        "",
-        ""
-    ],
-    [
-        "",
-        ""
-    ],
-    [
-        "",
-        ""
-    ],
-    [
-        "",
-        ""
-    ],
-    [
-        "",
-        ""
-    ],
-    [
-        "",
-        ""
-    ],
-    [
-        "",
-        ""
-    ],
-    [
-        "",
-        ""
-    ],
-    [
-        "",
-        ""
-    ],
+    ]
 ]
