@@ -81,8 +81,8 @@
     Quotes.sort((a, b) => {
         if (a[0] != b[0]) {
             // different source, sort using source
-            a = a[0].toLowerCase();
-            b = b[0].toLowerCase();
+            a = a[0].toString().toLowerCase();
+            b = b[0].toString().toLowerCase();
         } else {
             // sort using quote
             a = a[1];

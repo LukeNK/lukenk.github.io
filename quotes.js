@@ -41,19 +41,7 @@ const Quotes =
     ],
     [
         "",
-        "Everybody want to know what I will do if I didn't win.\nThat is not an option, so I don't think about it."
-    ],
-    [
-        "",
-        "I have to do it the classic way, which is... just find out..."
-    ],
-    [
-        "",
         "I might not be normal, but I am happy"
-    ],
-    [
-        "",
-        "I refuses to die until the world gets better"
     ],
     [
         "",
@@ -62,54 +50,6 @@ const Quotes =
     [
         "",
         "Il y a toujours des choses qui sont plus importantes que d'autres"
-    ],
-    [
-        "",
-        "It started in the most unsuspecting location but again, that is where all the fairy tales happen"
-    ],
-    [
-        "",
-        "Je dois le faire de manière classique, c'est-à-dire... simplement découvrir..."
-    ],
-    [
-        "",
-        "Je me plains seulement de ton malheur, tu n'ne qu'un vulgaire carlin !"
-    ],
-    [
-        "",
-        "Je refuse de mourir jusqu'à ce que le monde s'améliore"
-    ],
-    [
-        "",
-        "La vie est comme des toilettes, parfois il faut juste laisser tomber la merde et chasser la négativité"
-    ],
-    [
-        "",
-        "La vie n'est pas la fête qu'on imagine mais puisque nous sommes là, dansons!"
-    ],
-    [
-        "",
-        "Le meilleur jour pour planter un arbre était il y a 20 ans, le deuxième meilleur jour est maintenant."
-    ],
-    [
-        "",
-        "Les gens ne peuvent pas vous rendre fou si vous ne leur donnez pas les clés"
-    ],
-    [
-        "",
-        "Life is like a toilet, sometimes you just gotta let go of the crap and flush away the negativity"
-    ],
-    [
-        "",
-        "Life isn't the party we imagined but since we are here, let's dance!"
-    ],
-    [
-        "",
-        "Nous regrettons seaulement les chances que nous n'avons pas saisies"
-    ],
-    [
-        "",
-        "People can't drive you crazy if you don't give them the keys"
     ],
     [
         "",
@@ -122,10 +62,6 @@ const Quotes =
     [
         "",
         "Study while others are sleeping; work while others are loafing; prepare while others are playing; and dream while others are wishing"
-    ],
-    [
-        "",
-        "The best day to plant a tree was 20 years ago, the second-best day is now."
     ],
     [
         "",
@@ -142,18 +78,6 @@ const Quotes =
     [
         "",
         "There are alyways some things that are more important than others"
-    ],
-    [
-        "",
-        "Tout a commencé dans l'endroit le plus insoupçonné, mais encore un fois, c'est là que se déroulent tous les contes de fées"
-    ],
-    [
-        "",
-        "Tout le monde veut savoir ce que je ferais si je ne gagnais pas.\nCe n'est une option, doc je n'y pense pas."
-    ],
-    [
-        "",
-        "We only regret the chances we did not take"
     ],
     [
         "",
@@ -264,6 +188,78 @@ const Quotes =
         "Let's give a star a name so that it can shine on someone"
     ],
     [
+        1,
+        "I refuses to die until the world gets better"
+    ],
+    [
+        1,
+        "Je refuse de mourir jusqu'à ce que le monde s'améliore"
+    ],
+    [
+        2,
+        "I have to do it the classic way, which is... just find out..."
+    ],
+    [
+        2,
+        "Je dois le faire de manière classique, c'est-à-dire... simplement découvrir..."
+    ],
+    [
+        3,
+        "La vie est comme des toilettes, parfois il faut juste laisser tomber la merde et chasser la négativité"
+    ],
+    [
+        3,
+        "Life is like a toilet, sometimes you just gotta let go of the crap and flush away the negativity"
+    ],
+    [
+        4,
+        "La vie n'est pas la fête qu'on imagine mais puisque nous sommes là, dansons!"
+    ],
+    [
+        4,
+        "Life isn't the party we imagined but since we are here, let's dance!"
+    ],
+    [
+        5,
+        "Le meilleur jour pour planter un arbre était il y a 20 ans, le deuxième meilleur jour est maintenant."
+    ],
+    [
+        5,
+        "The best day to plant a tree was 20 years ago, the second-best day is now."
+    ],
+    [
+        6,
+        "Les gens ne peuvent pas vous rendre fou si vous ne leur donnez pas les clés"
+    ],
+    [
+        6,
+        "People can't drive you crazy if you don't give them the keys"
+    ],
+    [
+        7,
+        "Nous regrettons seaulement les chances que nous n'avons pas saisies"
+    ],
+    [
+        7,
+        "We only regret the chances we did not take"
+    ],
+    [
+        8,
+        "Everybody want to know what I will do if I didn't win.\nThat is not an option, so I don't think about it."
+    ],
+    [
+        8,
+        "Tout le monde veut savoir ce que je ferais si je ne gagnais pas.\nCe n'est une option, doc je n'y pense pas."
+    ],
+    [
+        9,
+        "It started in the most unsuspecting location but again, that is where all the fairy tales happen"
+    ],
+    [
+        9,
+        "Tout a commencé dans l'endroit le plus insoupçonné, mais encore un fois, c'est là que se déroulent tous les contes de fées"
+    ],
+    [
         "Aesop's fable, The Fox and the Cat",
         "Better one safe way than a hundred on which you cannot reckon"
     ],
@@ -286,6 +282,10 @@ const Quotes =
     [
         "CGP Grey",
         "Même le ralentissement du négatif est positif"
+    ],
+    [
+        "Ciel Phantomhive",
+        "Je me plains seulement de ton malheur, tu n'ne qu'un vulgaire carlin !"
     ],
     [
         "Ciel Phantomhive",
