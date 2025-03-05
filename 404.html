@@ -12,6 +12,8 @@
         }
 
         body {
+            --fg-color: #ffffff;
+            --bg-color: #000000;
             position: fixed;
             top: 0; left: 0;
             bottom: 0; right: 0;
@@ -20,15 +22,19 @@
             gap: 1rem;
             flex-direction: column;
             padding: 0 15%;
-            background-color: black;
+            background-color: var(--bg-color);
             font-size: 18px;
+        }
+        body.pause {
+            --bg-color: #ffffff;
+            --fg-color: #000000;
         }
 
         div {
             width: 100%;
-            border: 0.5rem solid white;
+            border: 0.5rem solid var(--fg-color);
             padding: 0 1rem;
-            color: white;
+            color: var(--fg-color);
         }
 
         #author {
@@ -41,24 +47,35 @@
         }
     </style>
 </head>
-<body>
+<body onclick="pause()">
     <div id="author"></div>
-    <div id="quote"></div>
+    <div id="quote" onclick="event.stopPropagation()"></div>
 </body>
 <script src="./quotes.js"></script>
 <script>
+    let runTimeout;
     function run() {
         let index = Math.floor(Quotes.length * Math.random());
         document.getElementById('author').innerHTML = `<h2>${Quotes[index][0] || "Anonymous"}</h2>`;
         document.getElementById('quote').innerHTML = `<p>${Quotes[index][1].replaceAll('\n', '<br>')}</p>`;
 
-        setTimeout(
+        runTimeout = setTimeout(
             run,
             Quotes[index][1].split(' ').length * 500 // seconds per word
             + 1000 // buffer time
         );
     }
     run();
+
+    function pause() {
+        if (document.body.classList.contains('pause')) {
+            document.body.classList.remove('pause');
+            run();
+        } else {
+            document.body.classList.add('pause');
+            clearTimeout(runTimeout);
+        }
+    }
 
     // sort and export
     Quotes.sort((a, b) => {
