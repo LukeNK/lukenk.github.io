@@ -448,14 +448,6 @@ const Quotes =
         "Life gets better. You just have to stay positive."
     ],
     [
-        "OMORI, MEWO",
-        "Meow? (Not much to do around here, is there?)"
-    ],
-    [
-        "OMORI, MEWO",
-        "Meow? (Waiting for something to happen?)"
-    ],
-    [
         "Orangestar, Daydream Skytrain (Translyrics by rachie)",
         "But if we just focus on things that annoy us, we might miss the stars"
     ],
@@ -530,5 +522,101 @@ const Quotes =
     [
         "Zundamon's Theorem",
         "Si cela n'a pas de sense, n'hésitez pas à l'ignorer pour le moment"
+    ],
+    [
+        "*Luna, 徒然ファクター (Boredom Factor)",
+        "May I become your strength\nBecause I want to laugh more by your side"
+    ],
+    [
+        "*Luna, 徒然ファクター (Boredom Factor)",
+        "Puisse-je devenir ta force\nParce que je veux rire davantage à tes côtés"
+    ],
+    [
+        "",
+        "Demain est un autre jour"
+    ],
+    [
+        "",
+        "Laisser les gens être des gens"
+    ],
+    [
+        13,
+        "Heartache is proof of a life well lived"
+    ],
+    [
+        13,
+        "Les chagrin est la preuve d'une vie bien vécue"
+    ],
+    [
+        14,
+        "Your current situation is not your final desination"
+    ],
+    [
+        14,
+        "Votre situation actualle n'est pas vortre destination finale"
+    ],
+    [
+        "MitchieP, Jikoaisei Kawaizm",
+        "I gotta love myself before I can fall in love with someone else, y'know?"
+    ],
+    [
+        "MitchieP, Jikoaisei Kawaizm",
+        "Je dois m'aimer moi-même avant de pouvoir tomber amoureux de quelqu'un d'autre, tu sais ?"
+    ],
+    [
+        15,
+        "Expect nothing, appreciate everything"
+    ],
+    [
+        15,
+        "N'attendez rien, appréciez tout"
+    ],
+    [
+        "Deco*27, Love Words IV",
+        "How close are you to a dream come true? To a place no one has been to?"
+    ],
+    [
+        "Deco*27, Love Words IV",
+        "Êtes-vous proche de réaliser un rêve ? D'un endroit unconnu ?"
+    ],
+    [
+        "Deco*27, Love Words IV",
+        "I'm singing a song like this to make you shine"
+    ],
+    [
+        "Deco*27, Love Words IV",
+        "Je chante une chanson comme celle-ci pour te faire briller"
+    ],
+    [
+        "*Luna, Rise Up (ElectricRaichu translation)",
+        "The flower as the windowsill bloomed though it used to be a bud"
+    ],
+    [
+        "*Luna, Rise Up (ElectricRaichu translation)",
+        "La fleur sur le rebord de la fenêtre a fleuri, même si c'était un bouton"
+    ],
+    [
+        "*Luna, Rise Up (ElectricRaichu translation)",
+        "I will go at my own pace\nBecause I can tell I am on the right track"
+    ],
+    [
+        "*Luna, Rise Up (ElectricRaichu translation)",
+        "J'avancerai à mon rythme\nParce que je sái que je súi sủ la bonne voie"
+    ],
+    [
+        "*Luna, Rise Up (ElectricRaichu translation)",
+        "If you run away now, you will be back to square one"
+    ],
+    [
+        "*Luna, Rise Up (ElectricRaichu translation)",
+        "Si tu t'enfuis maintenant, tu reviendras à la case départ"
+    ],
+    [
+        "*Luna, Rise Up (ElectricRaichu translation)",
+        "You knoq that all the roads you've taken are connected"
+    ],
+    [
+        "*Luna, Rise Up (ElectricRaichu translation)",
+        "Tu sais que tous les chemins que tu as empruntés sont reliés"
     ]
 ]
