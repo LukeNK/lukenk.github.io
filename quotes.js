@@ -1,3 +1,7 @@
+// WARNING: other projects also depends on this file for quotes
+// T24
+
+const Quotes =
 [
     [
         "",
