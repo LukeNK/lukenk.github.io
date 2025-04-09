@@ -1,7 +1,3 @@
-// WARNING: other projects also depends on this file for quotes
-// T24
-
-const Quotes =
 [
     [
         "",
@@ -18,6 +14,10 @@ const Quotes =
     [
         "",
         "Cats don't have to assure people that they are cats"
+    ],
+    [
+        "",
+        "Demain est un autre jour"
     ],
     [
         "",
@@ -42,6 +42,10 @@ const Quotes =
     [
         "",
         "Il y a toujours des choses qui sont plus importantes que d'autres"
+    ],
+    [
+        "",
+        "Laisser les gens être des gens"
     ],
     [
         "",
@@ -148,6 +152,38 @@ const Quotes =
         "Parce que c'est notre première vie, nous n'avons jamais rien eu à perdre"
     ],
     [
+        "*Luna, Rise Up (ElectricRaichu translation)",
+        "I will go at my own pace\nBecause I can tell I am on the right track"
+    ],
+    [
+        "*Luna, Rise Up (ElectricRaichu translation)",
+        "If you run away now, you will be back to square one"
+    ],
+    [
+        "*Luna, Rise Up (ElectricRaichu translation)",
+        "J'avancerai à mon rythme\nParce que je sái que je súi sủ la bonne voie"
+    ],
+    [
+        "*Luna, Rise Up (ElectricRaichu translation)",
+        "La fleur sur le rebord de la fenêtre a fleuri, même si c'était un bouton"
+    ],
+    [
+        "*Luna, Rise Up (ElectricRaichu translation)",
+        "Si tu t'enfuis maintenant, tu reviendras à la case départ"
+    ],
+    [
+        "*Luna, Rise Up (ElectricRaichu translation)",
+        "The flower as the windowsill bloomed though it used to be a bud"
+    ],
+    [
+        "*Luna, Rise Up (ElectricRaichu translation)",
+        "Tu sais que tous les chemins que tu as empruntés sont reliés"
+    ],
+    [
+        "*Luna, Rise Up (ElectricRaichu translation)",
+        "You knoq that all the roads you've taken are connected"
+    ],
+    [
         "*Luna, あの夏のいつかは (Someday in that Summer)",
         "Failure is not scary at all, what's scary is to not leave anything behind"
     ],
@@ -200,6 +236,14 @@ const Quotes =
         "Let's give a star a name so that it can shine on someone"
     ],
     [
+        "*Luna, 徒然ファクター (Boredom Factor)",
+        "May I become your strength\nBecause I want to laugh more by your side"
+    ],
+    [
+        "*Luna, 徒然ファクター (Boredom Factor)",
+        "Puisse-je devenir ta force\nParce que je veux rire davantage à tes côtés"
+    ],
+    [
         1,
         "I refuses to die until the world gets better"
     ],
@@ -230,6 +274,30 @@ const Quotes =
     [
         12,
         "Même si une horloge cassée a raison deux fois par jour"
+    ],
+    [
+        13,
+        "Heartache is proof of a life well lived"
+    ],
+    [
+        13,
+        "Les chagrin est la preuve d'une vie bien vécue"
+    ],
+    [
+        14,
+        "Votre situation actualle n'est pas vortre destination finale"
+    ],
+    [
+        14,
+        "Your current situation is not your final desination"
+    ],
+    [
+        15,
+        "Expect nothing, appreciate everything"
+    ],
+    [
+        15,
+        "N'attendez rien, appréciez tout"
     ],
     [
         2,
@@ -328,6 +396,22 @@ const Quotes =
         "Only complaining on your misfortune, you're nothing but a common pig!"
     ],
     [
+        "Deco*27, Love Words IV",
+        "How close are you to a dream come true? To a place no one has been to?"
+    ],
+    [
+        "Deco*27, Love Words IV",
+        "I'm singing a song like this to make you shine"
+    ],
+    [
+        "Deco*27, Love Words IV",
+        "Je chante une chanson comme celle-ci pour te faire briller"
+    ],
+    [
+        "Deco*27, Love Words IV",
+        "Êtes-vous proche de réaliser un rêve ? D'un endroit unconnu ?"
+    ],
+    [
         "Deco*27, ハローセカイ (Hello Sekai)",
         "Don't let the perfect future you give the current you such a hard time"
     ],
@@ -414,6 +498,14 @@ const Quotes =
     [
         "Mili, YUBIKIRI-GENMAN",
         "It's okay if you take a break\nFor I will never stop"
+    ],
+    [
+        "MitchieP, Jikoaisei Kawaizm",
+        "I gotta love myself before I can fall in love with someone else, y'know?"
+    ],
+    [
+        "MitchieP, Jikoaisei Kawaizm",
+        "Je dois m'aimer moi-même avant de pouvoir tomber amoureux de quelqu'un d'autre, tu sais ?"
     ],
     [
         "Nanatsukaze, Harumeku",
@@ -522,101 +614,5 @@ const Quotes =
     [
         "Zundamon's Theorem",
         "Si cela n'a pas de sense, n'hésitez pas à l'ignorer pour le moment"
-    ],
-    [
-        "*Luna, 徒然ファクター (Boredom Factor)",
-        "May I become your strength\nBecause I want to laugh more by your side"
-    ],
-    [
-        "*Luna, 徒然ファクター (Boredom Factor)",
-        "Puisse-je devenir ta force\nParce que je veux rire davantage à tes côtés"
-    ],
-    [
-        "",
-        "Demain est un autre jour"
-    ],
-    [
-        "",
-        "Laisser les gens être des gens"
-    ],
-    [
-        13,
-        "Heartache is proof of a life well lived"
-    ],
-    [
-        13,
-        "Les chagrin est la preuve d'une vie bien vécue"
-    ],
-    [
-        14,
-        "Your current situation is not your final desination"
-    ],
-    [
-        14,
-        "Votre situation actualle n'est pas vortre destination finale"
-    ],
-    [
-        "MitchieP, Jikoaisei Kawaizm",
-        "I gotta love myself before I can fall in love with someone else, y'know?"
-    ],
-    [
-        "MitchieP, Jikoaisei Kawaizm",
-        "Je dois m'aimer moi-même avant de pouvoir tomber amoureux de quelqu'un d'autre, tu sais ?"
-    ],
-    [
-        15,
-        "Expect nothing, appreciate everything"
-    ],
-    [
-        15,
-        "N'attendez rien, appréciez tout"
-    ],
-    [
-        "Deco*27, Love Words IV",
-        "How close are you to a dream come true? To a place no one has been to?"
-    ],
-    [
-        "Deco*27, Love Words IV",
-        "Êtes-vous proche de réaliser un rêve ? D'un endroit unconnu ?"
-    ],
-    [
-        "Deco*27, Love Words IV",
-        "I'm singing a song like this to make you shine"
-    ],
-    [
-        "Deco*27, Love Words IV",
-        "Je chante une chanson comme celle-ci pour te faire briller"
-    ],
-    [
-        "*Luna, Rise Up (ElectricRaichu translation)",
-        "The flower as the windowsill bloomed though it used to be a bud"
-    ],
-    [
-        "*Luna, Rise Up (ElectricRaichu translation)",
-        "La fleur sur le rebord de la fenêtre a fleuri, même si c'était un bouton"
-    ],
-    [
-        "*Luna, Rise Up (ElectricRaichu translation)",
-        "I will go at my own pace\nBecause I can tell I am on the right track"
-    ],
-    [
-        "*Luna, Rise Up (ElectricRaichu translation)",
-        "J'avancerai à mon rythme\nParce que je sái que je súi sủ la bonne voie"
-    ],
-    [
-        "*Luna, Rise Up (ElectricRaichu translation)",
-        "If you run away now, you will be back to square one"
-    ],
-    [
-        "*Luna, Rise Up (ElectricRaichu translation)",
-        "Si tu t'enfuis maintenant, tu reviendras à la case départ"
-    ],
-    [
-        "*Luna, Rise Up (ElectricRaichu translation)",
-        "You knoq that all the roads you've taken are connected"
-    ],
-    [
-        "*Luna, Rise Up (ElectricRaichu translation)",
-        "Tu sais que tous les chemins que tu as empruntés sont reliés"
     ]
 ]
