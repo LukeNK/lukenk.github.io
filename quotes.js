@@ -165,7 +165,7 @@ const Quotes =
     ],
     [
         "*Luna, Rise Up (ElectricRaichu translation)",
-        "J'avancerai à mon rythme\nParce que je sái que je súi sủ la bonne voie"
+        "J'avancerai à mon rythme\nParce que je sais que je suis sur la bonne voie"
     ],
     [
         "*Luna, Rise Up (ElectricRaichu translation)",
