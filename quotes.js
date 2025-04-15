@@ -97,7 +97,7 @@ const Quotes =
     ],
     [
         "*Luna, 10年後の私になら / Only to me in 10 years (Kohana Lam's translation)",
-        "You are still sneaky, aren't you?\tYou can't wait to escape"
+        "You are still sneaky, aren't you? You can't wait to escape"
     ],
     [
         "*Luna, 10年後の私になら / Only to me in 10 years (Kohana Lam's translation)",
@@ -121,7 +121,7 @@ const Quotes =
     ],
     [
         "*Luna, Check This Out",
-        "No matter what anyone said, I want you to notice it\tCheck this out!"
+        "No matter what anyone said, I want you to notice it. Check this out!"
     ],
     [
         "*Luna, Check This Out",
@@ -157,7 +157,7 @@ const Quotes =
     ],
     [
         "*Luna, Rise Up (ElectricRaichu translation)",
-        "I will go at my own pace\tBecause I can tell I am on the right track"
+        "I will go at my own pace, because I can tell I am on the right track"
     ],
     [
         "*Luna, Rise Up (ElectricRaichu translation)",
@@ -165,7 +165,7 @@ const Quotes =
     ],
     [
         "*Luna, Rise Up (ElectricRaichu translation)",
-        "J'avancerai à mon rythme\tParce que je sais que je suis sur la bonne voie"
+        "J'avancerai à mon rythme, parce que je sais que je suis sur la bonne voie"
     ],
     [
         "*Luna, Rise Up (ElectricRaichu translation)",
@@ -197,11 +197,11 @@ const Quotes =
     ],
     [
         "*Luna, バッドエンドの映画は嫌いなんだ (I hate bad end movies)",
-        "Our \"best\" is still high in the sky,\tbut we can already see our \"worst\" below"
+        "Our \"best\" is still high in the sky, but we can already see our \"worst\" below"
     ],
     [
         "*Luna, バッドエンドの映画は嫌いなんだ (I hate bad end movies)",
-        "Those bad end movie\tI hate them!\tAnd I don't want to make myself the star of one"
+        "Those bad end movie, I hate them! And I don't want to make myself the star of one"
     ],
     [
         "*Luna, メタフィクション (Metafiction)",
@@ -213,7 +213,7 @@ const Quotes =
     ],
     [
         "*Luna, 僕らの夏はまた巡って (Our Summer Will Come Again)",
-        "There were a lot of bad times, weren't there?\tBut whenever I look back on it, those days seemed so beautiful"
+        "There were a lot of bad times, weren't there? But whenever I look back on it, those days seemed so beautiful"
     ],
     [
         "*Luna, 僕らの夏はまた巡って (Our Summer Will Come Again)",
@@ -221,7 +221,7 @@ const Quotes =
     ],
     [
         "*Luna, 僕らの夏はまた巡って (Our Summer Will Come Again)",
-        "What's wrong with crying out loud\tWhenever you fall, get scraped, or covered in mud?"
+        "What's wrong with crying out loud whenever you fall, get scraped, or covered in mud?"
     ],
     [
         "*Luna, 夏が僕らを呼ぶのなら (If Summer is calling us) ",
@@ -241,11 +241,11 @@ const Quotes =
     ],
     [
         "*Luna, 徒然ファクター (Boredom Factor)",
-        "May I become your strength\tBecause I want to laugh more by your side"
+        "May I become your strength because I want to laugh more by your side"
     ],
     [
         "*Luna, 徒然ファクター (Boredom Factor)",
-        "Puisse-je devenir ta force\tParce que je veux rire davantage à tes côtés"
+        "Puisse-je devenir ta force parce que je veux rire davantage à tes côtés"
     ],
     [
         1,
@@ -353,11 +353,11 @@ const Quotes =
     ],
     [
         8,
-        "Everybody want to know what I will do if I didn't win.\tThat is not an option, so I don't think about it."
+        "Everybody want to know what I will do if I didn't win. That is not an option, so I don't think about it."
     ],
     [
         8,
-        "Tout le monde veut savoir ce que je ferais si je ne gagnais pas.\tCe n'est une option, doc je n'y pense pas."
+        "Tout le monde veut savoir ce que je ferais si je ne gagnais pas. Ce n'est une option, doc je n'y pense pas."
     ],
     [
         9,
@@ -465,15 +465,15 @@ const Quotes =
     ],
     [
         "Harumaki Gohan, Reunion",
-        "Let's make a promise to stay kids forever\tIf nobody gets hurt, stay as how our memories are"
+        "Let's make a promise to stay kids forever; if nobody gets hurt, stay as how our memories are"
     ],
     [
         "Jason Gray, Sparrows",
-        "You can't add a single day by worrying\tYou'll worry your life away"
+        "You can't add a single day by worrying, you'll worry your life away"
     ],
     [
         "kz and 八王子P and 栗山夕璃, トリコロール (Tricolor) (Tackmyn Y. translation)",
-        "Whatever future lies ahead, you will be all right.\tYou'll illuminate it with the light you're yet to know."
+        "Whatever future lies ahead, you will be all right. You'll illuminate it with the light you're yet to know."
     ],
     [
         "KZ-Livetune, ジュビリ",
@@ -489,7 +489,7 @@ const Quotes =
     ],
     [
         "Les Cowboys Fringants, Les étoiles filantes",
-        "Parce que tsé, voir trop loin\tC'past mieux que de r'garder en arrière"
+        "Parce que tsé, voir trop loin. C'past mieux que de r'garder en arrière."
     ],
     [
         "MgTyle",
@@ -501,7 +501,7 @@ const Quotes =
     ],
     [
         "Mili, YUBIKIRI-GENMAN",
-        "It's okay if you take a break\tFor I will never stop"
+        "It's okay if you take a break, for I will never stop"
     ],
     [
         "MitchieP, Jikoaisei Kawaizm",
@@ -513,7 +513,7 @@ const Quotes =
     ],
     [
         "Nanatsukaze, Harumeku",
-        "I'd like to live like a cat someday\tHuman desires are foolish"
+        "I'd like to live like a cat someday, human desires are foolish"
     ],
     [
         "OMORI, ???",
@@ -557,7 +557,7 @@ const Quotes =
     ],
     [
         "PIKASONIC, ColorCode-F",
-        "If your dream is stained with someone else's color\tLet's go back to the beginning color."
+        "If your dream is stained with someone else's color, let's go back to the beginning color."
     ],
     [
         "PIKASONIC, First Magnitude Star",
@@ -609,7 +609,7 @@ const Quotes =
     ],
     [
         "Yoshida, 夏空のSELFISH (Selfish in the summer sky)",
-        "A small happiness is fine\tdon't need anything else"
+        "A small happiness is fine, don't need anything else"
     ],
     [
         "Zundamon's Theorem",

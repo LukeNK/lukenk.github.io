@@ -91,13 +91,10 @@
         return (a < b) ? -1 : 1;
     });
 
-    console.log(
-        JSON.stringify(Quotes , undefined, '    ')
-    );
-
+    let output = '';
     for (const quote of Quotes)
-        if (typeof(quote[0]) == "number")
-            quote[0] = '';
+        output += quote[0] + '\t"' + quote[1] + '"\n'
+    console.log(output)
 
     run();
 </script>
