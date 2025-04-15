@@ -51,17 +51,26 @@
     <div id="author"></div>
     <div id="quote" onclick="event.stopPropagation()"></div>
 </body>
-<script src="./quotes.js"></script>
+<script src="./quotes/parser.js"></script>
 <script>
+    let Quotes = [];
+    (async () => {
+        Quotes = await quoteDownload();
+        Quotes = quoteParse(Quotes);
+        Quotes = quoteFlat(Quotes);
+
+        run()
+    })();
+
     let runTimeout;
     function run() {
         let index = Math.floor(Quotes.length * Math.random());
-        document.getElementById('author').innerHTML = `<h2>${Quotes[index][0] || "Anonymous"}</h2>`;
-        document.getElementById('quote').innerHTML = `<p>${Quotes[index][1].replaceAll('\n', '<br>')}</p>`;
+        document.getElementById('author').innerHTML = `<h2>${Quotes[index].author || "Anonymous"}</h2>`;
+        document.getElementById('quote').innerHTML = `<p>${Quotes[index].quote.replaceAll('\n', '<br>')}</p>`;
 
         runTimeout = setTimeout(
             run,
-            Quotes[index][1].split(' ').length * 500 // seconds per word
+            Quotes[index].quote.split(' ').length * 500 // seconds per word
             + 1000 // buffer time
         );
     }
@@ -75,26 +84,4 @@
             clearTimeout(runTimeout);
         }
     }
-
-    // sort and export
-    Quotes.sort((a, b) => {
-        if (a[0] != b[0]) {
-            // different source, sort using source
-            a = a[0].toString().toLowerCase();
-            b = b[0].toString().toLowerCase();
-        } else {
-            // sort using quote
-            a = a[1];
-            b = b[1];
-        }
-
-        return (a < b) ? -1 : 1;
-    });
-
-    let output = '';
-    for (const quote of Quotes)
-        output += quote[0] + '\t"' + quote[1] + '"\n'
-    console.log(output)
-
-    run();
 </script>
