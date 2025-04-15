@@ -3,7 +3,7 @@
 
 async function quoteDownload(url) {
     let response = await fetch(url || '/quotes/quotes.tsv');
-    if (response.ok)
+    if (!response.ok)
         response = await fetch('https://LukeNK.github.io/quotes/quotes.tsv');
     const data = await response.text();
     return data
