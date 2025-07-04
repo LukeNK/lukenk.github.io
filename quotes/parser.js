@@ -10,13 +10,12 @@ async function quoteDownload(url) {
 }
 
 function quoteParse(data) {
-    const lines = data.split('\n');
-    const quotes = lines.map(line => {
+    const lines = data.split('\n').splice(1);
+    return lines.map(line => {
         line = line.replaceAll('_', '\n');
         let [ author, quoteEN, quoteFR ] = line.split('\t');
         return { author, quoteEN, quoteFR };
     });
-    return quotes.slice(1);
 }
 
 function quoteFlat(data) {
@@ -26,4 +25,10 @@ function quoteFlat(data) {
     ]);
     quotes = quotes.filter(e => e.quote);
     return quotes;
+}
+
+function quoteExport(data) {
+    data = data.split('\n').splice(1)
+        .sort((a, b) => a.toLowerCase() < b.toLowerCase() ? -1 : 1);
+    return 'Author	Quote_EN	Quote_FR\n' + data.join('\n');
 }
