@@ -1,0 +1,67 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Elements */
+*[contenteditable] {
+    background-color: #e0e0e0;
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: bolder;
+}
+
+img {
+    height: 100%;
+    width: auto;
+}
+
+/* layout */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+#letterhead {
+    height: 7rem;
+    width: 5rem;
+}
+header h2 {
+    flex-grow: 1;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: flex-start;
+    margin: 3rem 0;
+}
+nav p {
+    margin: 0;
+    width: 5rem;
+    font-weight: bolder;
+}
+nav address {
+    flex-grow: 2;
+    margin-right: 5rem;
+}
+
+main h1 {
+    text-align: center;
+}
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+    text-indent: 5rem;
+}
+main p {
+    text-indent: 5rem;
+}

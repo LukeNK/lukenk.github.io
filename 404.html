@@ -56,6 +56,7 @@
     let Quotes = [];
     (async () => {
         Quotes = await quoteDownload();
+        console.log(quoteExport(Quotes));
         Quotes = quoteParse(Quotes);
         Quotes = quoteFlat(Quotes);
 
