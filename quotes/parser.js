@@ -12,6 +12,7 @@ async function quoteDownload(url) {
 function quoteParse(data) {
     const lines = data.split('\n');
     const quotes = lines.map(line => {
+        line = line.replaceAll('_', '\n');
         let [ author, quoteEN, quoteFR ] = line.split('\t');
         return { author, quoteEN, quoteFR };
     });
